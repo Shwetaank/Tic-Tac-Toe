@@ -1,6 +1,12 @@
 # Tic Tac Toe
 
-![Tic Tac Toe Game](https://placeholder.com/path-to-your-game-screenshot.png)
+
+![TicTacToe](https://github.com/user-attachments/assets/8f047438-68b7-4755-ae51-a49f074f5a54)
+
+
+## Demo
+https://github.com/user-attachments/assets/46786897-665a-42b6-a516-7e34b7cfc4db
+
 
 ## Table of Contents
 
@@ -51,12 +57,12 @@ Enhanced Tic Tac Toe is a modern, responsive implementation of the classic game,
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/enhanced-tic-tac-toe.git
+   git clone git@github.com:Shwetaank/Tic-Tac-Toe.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd enhanced-tic-tac-toe
+   cd Tic-Tac-Toe
    ```
 
 3. Install the dependencies:
