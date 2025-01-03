@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tic Tac Toe
+
+![Tic Tac Toe Game](https://placeholder.com/path-to-your-game-screenshot.png)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [How to Play](#how-to-play)
+- [Game Modes](#game-modes)
+- [AI Difficulty Levels](#ai-difficulty-levels)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+Enhanced Tic Tac Toe is a modern, responsive implementation of the classic game, built with React and Next.js. It features a sleek design, multiple game modes, and an unbeatable AI opponent.
+
+## Features
+
+- 🎮 Classic Tic Tac Toe gameplay
+- 🤖 Multiple AI difficulty levels (Easy, Medium, Hard)
+- 👥 Two-player mode
+- 🌓 Dark mode support
+- 📱 Responsive design for desktop and mobile
+- 🎉 Winning animations with confetti
+- 📊 Score tracking
+- 🔄 Game history and move tracking
+
+## Technologies Used
+
+- React
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React Icons
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/enhanced-tic-tac-toe.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Navigate to the project directory:
+   ```
+   cd enhanced-tic-tac-toe
+   ```
 
-## Learn More
+3. Install the dependencies:
+   ```
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the development server:
+   ```
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Open your browser and visit `http://localhost:3000` to play the game.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## How to Play
 
-## Deploy on Vercel
+1. Choose a game mode: Human vs Human, or play against the AI.
+2. Players take turns placing their symbol (X or O) on the 3x3 grid.
+3. The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins.
+4. If all squares are filled and no player has won, the game is a draw.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Game Modes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Human vs Human**: Play against a friend on the same device.
+- **Human vs AI**: Test your skills against the computer AI.
+
+## AI Difficulty Levels
+
+- **Easy**: The AI makes random moves, suitable for beginners.
+- **Medium**: The AI uses a mix of random moves and strategic plays.
+- **Hard**: The AI uses the minimax algorithm with alpha-beta pruning, making it unbeatable.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+

@@ -1,12 +1,9 @@
-import { Button } from "@/components/ui/button";
+import TicTacToe from "@/components/TicTacToe";
 
-const MainPage = () => {
+export default function Home() {
   return (
-    <div>
-      MainPage
-      <Button>Click Me Now </Button>
-    </div>
+    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-purple-100 to-indigo-200 dark:from-purple-900 dark:to-indigo-950 p-4">
+      <TicTacToe />
+    </main>
   );
-};
-
-export default MainPage;
+}
